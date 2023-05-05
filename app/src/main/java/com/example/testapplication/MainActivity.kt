@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.button.setOnClickListener {
             binding.textView.text = binding.editText.text.toString()
+	    Hola
         }
 
 
